@@ -1,0 +1,11 @@
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+body {
+    background: rgb(209, 205, 201);
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+li {
+    list-style: none;
+}
