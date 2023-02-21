@@ -2,7 +2,7 @@ font-family: 'Lato', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
 
 body {
-    background: rgb(209, 205, 201);
+    background: rgb(240, 219, 219);
     font-family: "Roboto Condensed", sans-serif;
 
 }
@@ -34,7 +34,7 @@ header {
     justify-content: space-around;
     align-items: center;
     background-color: #eee;
-    width: 100%;
+    width: 90%;
 
 }
 nav {
@@ -78,6 +78,24 @@ nav {
     margin-left: 10px;
 
 }
+.grid {
+    display: flex;
+    flex-direction: row;
+  }
+
+#features {
+    margin-top: 50px;
+  }
+  
+  #features .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 20pc;
+    color: rgb(240, 219, 219);
+  }
+
 #pricing {
     margin-top: 60px;
     display: flex;
@@ -93,4 +111,35 @@ nav {
     justify-content: center;
     align-items: center;
     padding: 2pc;
+
+    }
+
+  .product-btn{
+    background: rgb(241, 181, 70);
+    width: 5pc;
+    height: 2pc;
+  }
+  footer {
+    margin-top: 30px;
+    background-color: rgb(240, 219, 219);
+    padding: 20px;
+    width: 95%;
+  }
+  
+  footer > ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  footer > ul > li {
+    padding: 0 10px;
+    text-decoration: none;
+  }
+  
+  footer > span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
   }
